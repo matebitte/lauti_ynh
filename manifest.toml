@@ -16,7 +16,7 @@ maintainers = ["johndoe"]
 license = "free" # you can see the available licenses identifiers list here: https://spdx.org/licenses/
 website = "https://example.com"
 demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
+admindoc = "https://doc.yunohost.org/dev/packaging/"
 userdoc = "https://yunohost.org/apps"
 code = "https://some.forge.com/example/example"
 # FIXME: optional but recommended if relevant, this is meant to contain the Common Platform Enumeration, which is

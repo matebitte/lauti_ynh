@@ -117,7 +117,7 @@ services = ["__APP__"]
 
         ## You can use same questions types and properties than in manifest.toml
         ## install part.
-        ## See: https://doc.yunohost.org/en/dev/packaging/advanced/config_panels
+        ## See: https://doc.yunohost.org/dev/packaging/advanced/config_panels
 
         [main.customization.project_name]
 
@@ -135,7 +135,7 @@ services = ["__APP__"]
         ## email, url, date, time, color, select, domain, user, tags, file.
         ##
         ## For a complete list with specific properties, see:
-        ## https://doc.yunohost.org/en/dev/core/forms
+        ## https://doc.yunohost.org/dev/core/forms
         type = "string"
 
         ########################################################################
@@ -166,7 +166,7 @@ services = ["__APP__"]
         ## complex data structures like multiline array/lists or dictionnaries.
         ## It also doesn't work with XML format, custom config function call, php define(), ...
 
-        ## More info on https://doc.yunohost.org/en/dev/packaging/advanced/config_panels#the-bind-statement
+        ## More info on https://doc.yunohost.org/dev/packaging/advanced/config_panels/#the-bind-statement
         # bind = ":/var/www/__APP__/settings.py"
 
 

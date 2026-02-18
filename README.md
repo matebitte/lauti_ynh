@@ -3,7 +3,7 @@
 * Copy this app before working on it, using the ['Use this template'](https://github.com/new?template_name=example_ynh&template_owner=YunoHost) button on the GitHub repo.
 * Edit the `manifest.toml` with app specific info.
 * Edit the `install`, `upgrade`, `remove`, `backup` and `restore` scripts, and any relevant conf files in `conf/`.
-  * Using the [script helpers documentation.](https://yunohost.org/packaging_apps_helpers)
+  * Using the [script helpers documentation.](https://doc.yunohost.org/dev/packaging/scripts/helpers_v2.1/)
 * Edit the `change_url` and `config` scripts too, or remove them if you have no use of them
 * Add a `LICENSE` file for the package. NB: this LICENSE file is not meant to necessarily be the LICENSE of the upstream app - it is only the LICENSE you want this package's code to published with ;). We recommend to use [the AGPL-3](https://www.gnu.org/licenses/agpl-3.0.txt).
 * Edit files under the `doc/` directory
@@ -23,7 +23,7 @@ It shall NOT be edited by hand.
 *[Lire ce readme en français.](./README_fr.md)*
 
 > *This package allows you to install Example app quickly and simply on a YunoHost server.
-If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
+If you don't have YunoHost, please consult [the guide](https://doc.yunohost.org/admin/get_started/install_on/) to learn how to install it.*
 
 ## Overview
 
@@ -65,7 +65,7 @@ Some long and extensive description of what the app is and does, lorem ipsum dol
 
 * Official app website: <https://example.com>
 * Official user documentation: <https://yunohost.org/apps>
-* Official admin documentation: <https://yunohost.org/packaging_apps>
+* Official admin documentation: <https://doc.yunohost.org/dev/packaging/>
 * Upstream app code repository: <https://some.forge.com/example/example>
 * YunoHost documentation for this app: <https://yunohost.org/app_example>
 * Report a bug: <https://github.com/YunoHost-Apps/example_ynh/issues>
@@ -82,4 +82,4 @@ or
 sudo yunohost app upgrade example -u https://github.com/YunoHost-Apps/example_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
+**More info regarding app packaging:** <https://doc.yunohost.org/dev/packaging/>
