@@ -1,4 +1,4 @@
-# Packaging an app, starting from this example
+# WORK IN PROGRESS, DONT USE
 
 * Copy this app before working on it, using the ['Use this template'](https://github.com/new?template_name=example_ynh&template_owner=YunoHost) button on the GitHub repo.
 * Edit the `manifest.toml` with app specific info.
